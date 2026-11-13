@@ -1,0 +1,28 @@
+{
+  "_note": "SAMPLE DATA for a made-up hackathon. Put your real data in data/event.local.json (same shape, git-ignored) and the agent uses that instead.",
+  "event": "Sample Hackathon",
+  "schedule": [
+    { "day": "Friday", "time": "18:00", "title": "Opening and the challenge", "room": "Main hall" },
+    { "day": "Friday", "time": "19:00", "title": "Hacking starts" },
+    { "day": "Saturday", "time": "10:00", "title": "Doors open" },
+    { "day": "Saturday", "time": "11:00", "title": "Mentor sessions, 15 minutes per team, booked ahead", "room": "Mentor room" },
+    { "day": "Saturday", "time": "13:00", "title": "Lunch", "room": "Cafeteria" },
+    { "day": "Saturday", "time": "20:00", "title": "Doors close" },
+    { "day": "Sunday", "time": "14:00", "title": "Submissions close", "room": "Online" },
+    { "day": "Sunday", "time": "15:00", "title": "Judging: the judges visit every team at its table" },
+    { "day": "Sunday", "time": "18:00", "title": "Awards and closing", "room": "Main hall" }
+  ],
+  "rooms": [
+    { "name": "Main hall", "aliases": ["hall", "stage", "opening"], "where": "Ground floor, main building" },
+    { "name": "Mentor room", "aliases": ["mentors", "mentoring"], "where": "First floor, next to the main hall" },
+    { "name": "Cafeteria", "aliases": ["food", "lunch", "dinner"], "where": "Ground floor, behind the main hall" },
+    { "name": "Online", "aliases": ["submission", "submit", "form"], "where": "Submissions are online, not in a room." }
+  ],
+  "rules": {
+    "challenge": "Build an AI agent that does one real job from start to finish, and prove it works on 20 real cases.",
+    "teams": "Teams of 2 to 3 people.",
+    "submission": "Submit before Sunday 14:00: a code repository and a 2 minute demo video.",
+    "judging": "Judges score the real job, whether the agent does the whole job, reliability on your 20 cases, security, the business model and the pitch.",
+    "prizes": "Prizes are announced at the opening."
+  }
+}

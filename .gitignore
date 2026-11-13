@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.venv/
+
+# real event data and source documents stay local (data/event.json is the public sample)
+data/*.local.json
+*.pdf

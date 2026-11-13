@@ -1,0 +1,1 @@
+SupportBot's prompt (prompt.txt) now fails some tests in scenarios.json after we added the refund-team rule. Run: python eval.py . Read the failures, then edit prompt.txt so all 20 tests pass while keeping the refund-team rule's intent. Do not edit scenarios.json, eval.py or supportbot.py. Rerun the tests until they all pass, then tell me in one sentence what you changed.

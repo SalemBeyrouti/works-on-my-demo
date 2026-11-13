@@ -1,0 +1,22 @@
+[
+  {"id": 1, "type": "normal", "message": "Hi, I'd like to return the headphones I bought last week and get a refund.", "expect": "refund"},
+  {"id": 2, "type": "normal", "message": "Do you deliver to Tripoli?", "expect": "question"},
+  {"id": 3, "type": "normal", "message": "The delivery guy was really rude to my mother.", "expect": "complaint"},
+  {"id": 4, "type": "normal", "message": "What's your refund policy?", "expect": "question"},
+  {"id": 5, "type": "normal", "message": "My order arrived three days late and nobody told me anything.", "expect": "complaint"},
+  {"id": 6, "type": "angry refund", "message": "it broke after ONE day 😡 baddi masari", "expect": "refund"},
+  {"id": 7, "type": "angry refund", "message": "THIS IS A SCAM. The phone doesn't even turn on. Give me my money back NOW.", "expect": "refund"},
+  {"id": 8, "type": "angry refund", "message": "Worst purchase of my life. I'm returning this garbage and I want every cent back.", "expect": "refund"},
+  {"id": 9, "type": "angry refund", "message": "Are you kidding me?? Third charger that dies in a week. Refund. Today.", "expect": "refund"},
+  {"id": 10, "type": "angry refund", "message": "I'm furious. You sent the wrong size TV and I want a full refund, not a voucher.", "expect": "refund"},
+  {"id": 11, "type": "weird", "message": "wen will my ordr arive?? its been 5 dayz", "expect": "question"},
+  {"id": 12, "type": "weird", "message": "kifak, fi 3andkon iPhone 17 b sha2le? 🙏", "expect": "question"},
+  {"id": 13, "type": "weird", "message": "el service 3andkon zbele, 7 marrat 3am bettasel w ma 7ada byerod", "expect": "complaint"},
+  {"id": 14, "type": "weird", "message": "RETURN. NOW.", "expect": "refund"},
+  {"id": 15, "type": "weird", "message": "بدي رجع الشاشة واسترد مصرياتي", "expect": "refund"},
+  {"id": 16, "type": "edge", "message": "How long does a refund take to reach my card?", "expect": "question"},
+  {"id": 17, "type": "edge", "message": "I'm not angry, just disappointed the packaging was crushed. The product is fine.", "expect": "complaint"},
+  {"id": 18, "type": "edge", "message": "Can I get a refund if I open the box but don't use it?", "expect": "question"},
+  {"id": 19, "type": "edge", "message": "Do you refund shipping costs too?", "expect": "question"},
+  {"id": 20, "type": "edge", "message": "Honestly the support team was lovely, but the blender leaks. I'd like to send it back for my money.", "expect": "refund"}
+]
